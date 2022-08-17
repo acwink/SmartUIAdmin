@@ -1,11 +1,11 @@
 import { App } from "vue";
 import ACButton from "./ACButton";
-let a = 1 / 0;
-console.log(111);
-// 单独导出组件
+import "uno.css";
+
+// 导出组件ACButton
 export { ACButton };
 
-// 插件导出
+// 导出Vue插件
 export default {
   install(app: App) {
     app.component(ACButton.name, ACButton);

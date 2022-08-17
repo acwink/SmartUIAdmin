@@ -1,5 +1,5 @@
 import { App } from "vue";
-import ACButton from "./button";
+import ACButton from "./ACButton";
 let a = 1/0;
 console.log(111);
 // 单独导出组件

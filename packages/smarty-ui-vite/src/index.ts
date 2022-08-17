@@ -1,6 +1,6 @@
 import { App } from "vue";
 import ACButton from "./ACButton";
-let a = 1/0;
+let a = 1 / 0;
 console.log(111);
 // 单独导出组件
 export { ACButton };

@@ -1,0 +1,23 @@
+{
+  "name": "docs-ui-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "acwink",
+  "license": "ISC",
+  "dependencies": {
+    "smarty-ui-vite": "workspace:^1.0.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "unocss": "0.45.6",
+    "vitepress": "^1.0.0-alpha.4"
+  }
+}
